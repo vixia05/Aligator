@@ -29,19 +29,23 @@
         <div class="card-body">
             <div class="row text-center px-3">
                 <label for="nomor-po" class="form-label">Nomor PO</label>
-                <input type="text" class="form-control text-center" id="nomor-po" name="nomor-po" placeholder="Nomor PO">
-                <input type="text" class="form-control text-center" id="obc" name="obc" placeholder="PST 030001" disabled>
+                <input type="text" class="form-control form-control-sm text-center" id="nomor-po" name="nomor-po" placeholder="Nomor PO">
+            </div>
+            <div class="row px-1">
+                <div class="input-group input-group-sm mt-2">
+                    <span class="input-group-text bg-warning bg-opacity-50">OBC</span>
+                    <input type="text" class="form-control form-control-sm text-center" id="obc" name="obc" placeholder="PST 030001" disabled>
+                    <span class="input-group-text bg-warning bg-opacity-50">Jumlah Rim</span>
+                    <input type="number" class="form-control form-control-sm text-center" id="obc" name="obc" value="80">
+                </div>
             </div>
             <div class="row text-center mt-3 px-3">
-                <label for="range" class="form-label">Range</label>
-                <div class="row ms-1">
-                    <div class="col-5">
-                        <input type="number" class="form-control text-center" id="range-from" name="range-from" placeholder="Start">
-                    </div>
-                    <div class="col-2"><span>-</span></div>
-                    <div class="col-5">
-                        <input type="number" class="form-control text-center" id="range-to" name="range-to" placeholder="End">
-                    </div>
+                <label for="range" class="form-label">Nomor Rim</label>
+                <div class="input-group input-group-sm" id="range" name="range">
+                    <span class="input-group-text bg-info bg-opacity-50">From</span>
+                    <input type="text" class="form-control form-control-sm text-center" id="obc" name="obc" value="1">
+                    <span class="input-group-text bg-info bg-opacity-50">To</span>
+                    <input type="number" class="form-control form-control-sm text-center" id="obc" name="obc" value="40">
                 </div>
             </div>
         </div>
